@@ -5,9 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/thijslaptop/Documents/BEP/Functions/FFT.cpp" "/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles/BEP.dir/Functions/FFT.cpp.o"
-  "/home/thijslaptop/Documents/BEP/Functions/Function.cpp" "/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles/BEP.dir/Functions/Function.cpp.o"
   "/home/thijslaptop/Documents/BEP/Functions/QAM.cpp" "/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles/BEP.dir/Functions/QAM.cpp.o"
-  "/home/thijslaptop/Documents/BEP/Functions/Serial.cpp" "/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles/BEP.dir/Functions/Serial.cpp.o"
   "/home/thijslaptop/Documents/BEP/Network/TCPClient.cpp" "/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles/BEP.dir/Network/TCPClient.cpp.o"
   "/home/thijslaptop/Documents/BEP/Network/TCPServer.cpp" "/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles/BEP.dir/Network/TCPServer.cpp.o"
   "/home/thijslaptop/Documents/BEP/Network/UDP.cpp" "/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles/BEP.dir/Network/UDP.cpp.o"

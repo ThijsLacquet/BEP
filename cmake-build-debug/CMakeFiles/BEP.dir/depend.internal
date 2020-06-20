@@ -4,18 +4,10 @@
 CMakeFiles/BEP.dir/Functions/FFT.cpp.o
  /home/thijslaptop/Documents/BEP/Functions/FFT.cpp
  /home/thijslaptop/Documents/BEP/Functions/FFT.h
- /home/thijslaptop/Documents/BEP/Functions/Function.h
-CMakeFiles/BEP.dir/Functions/Function.cpp.o
- /home/thijslaptop/Documents/BEP/Functions/Function.cpp
- /home/thijslaptop/Documents/BEP/Functions/Function.h
 CMakeFiles/BEP.dir/Functions/QAM.cpp.o
  /home/thijslaptop/Documents/BEP/Functions/FFT.h
- /home/thijslaptop/Documents/BEP/Functions/Function.h
  /home/thijslaptop/Documents/BEP/Functions/QAM.cpp
  /home/thijslaptop/Documents/BEP/Functions/QAM.h
-CMakeFiles/BEP.dir/Functions/Serial.cpp.o
- /home/thijslaptop/Documents/BEP/Functions/Serial.cpp
- /home/thijslaptop/Documents/BEP/Functions/Serial.h
 CMakeFiles/BEP.dir/Network/TCPClient.cpp.o
  /home/thijslaptop/Documents/BEP/Network/TCPClient.cpp
  /home/thijslaptop/Documents/BEP/Network/TCPClient.h
@@ -30,7 +22,6 @@ CMakeFiles/BEP.dir/Other/Counter.cpp.o
  /home/thijslaptop/Documents/BEP/Other/Counter.h
 CMakeFiles/BEP.dir/main.cpp.o
  /home/thijslaptop/Documents/BEP/Functions/FFT.h
- /home/thijslaptop/Documents/BEP/Functions/Function.h
  /home/thijslaptop/Documents/BEP/Functions/QAM.h
  /home/thijslaptop/Documents/BEP/Network/TCPClient.h
  /home/thijslaptop/Documents/BEP/Network/UDP.h

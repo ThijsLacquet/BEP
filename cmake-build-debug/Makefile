@@ -150,33 +150,6 @@ Functions/FFT.cpp.s:
 	$(MAKE) -f CMakeFiles/BEP.dir/build.make CMakeFiles/BEP.dir/Functions/FFT.cpp.s
 .PHONY : Functions/FFT.cpp.s
 
-Functions/Function.o: Functions/Function.cpp.o
-
-.PHONY : Functions/Function.o
-
-# target to build an object file
-Functions/Function.cpp.o:
-	$(MAKE) -f CMakeFiles/BEP.dir/build.make CMakeFiles/BEP.dir/Functions/Function.cpp.o
-.PHONY : Functions/Function.cpp.o
-
-Functions/Function.i: Functions/Function.cpp.i
-
-.PHONY : Functions/Function.i
-
-# target to preprocess a source file
-Functions/Function.cpp.i:
-	$(MAKE) -f CMakeFiles/BEP.dir/build.make CMakeFiles/BEP.dir/Functions/Function.cpp.i
-.PHONY : Functions/Function.cpp.i
-
-Functions/Function.s: Functions/Function.cpp.s
-
-.PHONY : Functions/Function.s
-
-# target to generate assembly for a file
-Functions/Function.cpp.s:
-	$(MAKE) -f CMakeFiles/BEP.dir/build.make CMakeFiles/BEP.dir/Functions/Function.cpp.s
-.PHONY : Functions/Function.cpp.s
-
 Functions/QAM.o: Functions/QAM.cpp.o
 
 .PHONY : Functions/QAM.o
@@ -203,33 +176,6 @@ Functions/QAM.s: Functions/QAM.cpp.s
 Functions/QAM.cpp.s:
 	$(MAKE) -f CMakeFiles/BEP.dir/build.make CMakeFiles/BEP.dir/Functions/QAM.cpp.s
 .PHONY : Functions/QAM.cpp.s
-
-Functions/Serial.o: Functions/Serial.cpp.o
-
-.PHONY : Functions/Serial.o
-
-# target to build an object file
-Functions/Serial.cpp.o:
-	$(MAKE) -f CMakeFiles/BEP.dir/build.make CMakeFiles/BEP.dir/Functions/Serial.cpp.o
-.PHONY : Functions/Serial.cpp.o
-
-Functions/Serial.i: Functions/Serial.cpp.i
-
-.PHONY : Functions/Serial.i
-
-# target to preprocess a source file
-Functions/Serial.cpp.i:
-	$(MAKE) -f CMakeFiles/BEP.dir/build.make CMakeFiles/BEP.dir/Functions/Serial.cpp.i
-.PHONY : Functions/Serial.cpp.i
-
-Functions/Serial.s: Functions/Serial.cpp.s
-
-.PHONY : Functions/Serial.s
-
-# target to generate assembly for a file
-Functions/Serial.cpp.s:
-	$(MAKE) -f CMakeFiles/BEP.dir/build.make CMakeFiles/BEP.dir/Functions/Serial.cpp.s
-.PHONY : Functions/Serial.cpp.s
 
 Network/TCPClient.o: Network/TCPClient.cpp.o
 
@@ -378,15 +324,9 @@ help:
 	@echo "... Functions/FFT.o"
 	@echo "... Functions/FFT.i"
 	@echo "... Functions/FFT.s"
-	@echo "... Functions/Function.o"
-	@echo "... Functions/Function.i"
-	@echo "... Functions/Function.s"
 	@echo "... Functions/QAM.o"
 	@echo "... Functions/QAM.i"
 	@echo "... Functions/QAM.s"
-	@echo "... Functions/Serial.o"
-	@echo "... Functions/Serial.i"
-	@echo "... Functions/Serial.s"
 	@echo "... Network/TCPClient.o"
 	@echo "... Network/TCPClient.i"
 	@echo "... Network/TCPClient.s"

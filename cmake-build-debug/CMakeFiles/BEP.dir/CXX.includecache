@@ -7,12 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/thijslaptop/Documents/BEP/Functions/FFT.h
-Function.h
-/home/thijslaptop/Documents/BEP/Functions/Function.h
 complex.h
 -
-
-/home/thijslaptop/Documents/BEP/Functions/Function.h
 
 /home/thijslaptop/Documents/BEP/Functions/QAM.h
 stdlib.h

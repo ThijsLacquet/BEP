@@ -1,14 +1,14 @@
-#include "Function.h"
 #include <complex.h>
+
+using namespace std;
 
 #ifndef BEP_EDGE_FFT_H
 #define BEP_EDGE_FFT_H
 
-
-class FFT {
+class FFT{
 public:
-    std::complex<double>* compute_FFT(std::complex<double> *input, int n);
-    std::complex<double>* compute_IFFT(std::complex<double> *input, int n);
+    void compute(complex<short> *input, complex<short> *output , int n, int mode);
+    void compute(complex<double> *input, complex<double> *output , int n, int mode);
 };
 
 

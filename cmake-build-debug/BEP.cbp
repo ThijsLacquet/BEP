@@ -90,22 +90,10 @@
 		<Unit filename="/home/thijslaptop/Documents/BEP/Functions/FFT.h">
 			<Option target="BEP"/>
 		</Unit>
-		<Unit filename="/home/thijslaptop/Documents/BEP/Functions/Function.cpp">
-			<Option target="BEP"/>
-		</Unit>
-		<Unit filename="/home/thijslaptop/Documents/BEP/Functions/Function.h">
-			<Option target="BEP"/>
-		</Unit>
 		<Unit filename="/home/thijslaptop/Documents/BEP/Functions/QAM.cpp">
 			<Option target="BEP"/>
 		</Unit>
 		<Unit filename="/home/thijslaptop/Documents/BEP/Functions/QAM.h">
-			<Option target="BEP"/>
-		</Unit>
-		<Unit filename="/home/thijslaptop/Documents/BEP/Functions/Serial.cpp">
-			<Option target="BEP"/>
-		</Unit>
-		<Unit filename="/home/thijslaptop/Documents/BEP/Functions/Serial.h">
 			<Option target="BEP"/>
 		</Unit>
 		<Unit filename="/home/thijslaptop/Documents/BEP/Network/TCPClient.cpp">

@@ -38,8 +38,6 @@ int Counter::waitns(int waittime) {
             } else {
                 return 0;
             }
-        } else {
-            //usleep((waittime / 1000) / 2);
         }
         first = false;
     }

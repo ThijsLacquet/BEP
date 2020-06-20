@@ -109,22 +109,9 @@ CMakeFiles/BEP.dir/Network/UDP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BEP.dir/Network/UDP.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thijslaptop/Documents/BEP/Network/UDP.cpp -o CMakeFiles/BEP.dir/Network/UDP.cpp.s
 
-CMakeFiles/BEP.dir/Functions/Function.cpp.o: CMakeFiles/BEP.dir/flags.make
-CMakeFiles/BEP.dir/Functions/Function.cpp.o: ../Functions/Function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BEP.dir/Functions/Function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BEP.dir/Functions/Function.cpp.o -c /home/thijslaptop/Documents/BEP/Functions/Function.cpp
-
-CMakeFiles/BEP.dir/Functions/Function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BEP.dir/Functions/Function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thijslaptop/Documents/BEP/Functions/Function.cpp > CMakeFiles/BEP.dir/Functions/Function.cpp.i
-
-CMakeFiles/BEP.dir/Functions/Function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BEP.dir/Functions/Function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thijslaptop/Documents/BEP/Functions/Function.cpp -o CMakeFiles/BEP.dir/Functions/Function.cpp.s
-
 CMakeFiles/BEP.dir/Functions/FFT.cpp.o: CMakeFiles/BEP.dir/flags.make
 CMakeFiles/BEP.dir/Functions/FFT.cpp.o: ../Functions/FFT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BEP.dir/Functions/FFT.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BEP.dir/Functions/FFT.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BEP.dir/Functions/FFT.cpp.o -c /home/thijslaptop/Documents/BEP/Functions/FFT.cpp
 
 CMakeFiles/BEP.dir/Functions/FFT.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/BEP.dir/Functions/FFT.cpp.s: cmake_force
 
 CMakeFiles/BEP.dir/Functions/QAM.cpp.o: CMakeFiles/BEP.dir/flags.make
 CMakeFiles/BEP.dir/Functions/QAM.cpp.o: ../Functions/QAM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BEP.dir/Functions/QAM.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BEP.dir/Functions/QAM.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BEP.dir/Functions/QAM.cpp.o -c /home/thijslaptop/Documents/BEP/Functions/QAM.cpp
 
 CMakeFiles/BEP.dir/Functions/QAM.cpp.i: cmake_force
@@ -148,22 +135,9 @@ CMakeFiles/BEP.dir/Functions/QAM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BEP.dir/Functions/QAM.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thijslaptop/Documents/BEP/Functions/QAM.cpp -o CMakeFiles/BEP.dir/Functions/QAM.cpp.s
 
-CMakeFiles/BEP.dir/Functions/Serial.cpp.o: CMakeFiles/BEP.dir/flags.make
-CMakeFiles/BEP.dir/Functions/Serial.cpp.o: ../Functions/Serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BEP.dir/Functions/Serial.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BEP.dir/Functions/Serial.cpp.o -c /home/thijslaptop/Documents/BEP/Functions/Serial.cpp
-
-CMakeFiles/BEP.dir/Functions/Serial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BEP.dir/Functions/Serial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thijslaptop/Documents/BEP/Functions/Serial.cpp > CMakeFiles/BEP.dir/Functions/Serial.cpp.i
-
-CMakeFiles/BEP.dir/Functions/Serial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BEP.dir/Functions/Serial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thijslaptop/Documents/BEP/Functions/Serial.cpp -o CMakeFiles/BEP.dir/Functions/Serial.cpp.s
-
 CMakeFiles/BEP.dir/Other/Counter.cpp.o: CMakeFiles/BEP.dir/flags.make
 CMakeFiles/BEP.dir/Other/Counter.cpp.o: ../Other/Counter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BEP.dir/Other/Counter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BEP.dir/Other/Counter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BEP.dir/Other/Counter.cpp.o -c /home/thijslaptop/Documents/BEP/Other/Counter.cpp
 
 CMakeFiles/BEP.dir/Other/Counter.cpp.i: cmake_force
@@ -180,10 +154,8 @@ BEP_OBJECTS = \
 "CMakeFiles/BEP.dir/Network/TCPServer.cpp.o" \
 "CMakeFiles/BEP.dir/Network/TCPClient.cpp.o" \
 "CMakeFiles/BEP.dir/Network/UDP.cpp.o" \
-"CMakeFiles/BEP.dir/Functions/Function.cpp.o" \
 "CMakeFiles/BEP.dir/Functions/FFT.cpp.o" \
 "CMakeFiles/BEP.dir/Functions/QAM.cpp.o" \
-"CMakeFiles/BEP.dir/Functions/Serial.cpp.o" \
 "CMakeFiles/BEP.dir/Other/Counter.cpp.o"
 
 # External object files for target BEP
@@ -193,14 +165,12 @@ BEP: CMakeFiles/BEP.dir/main.cpp.o
 BEP: CMakeFiles/BEP.dir/Network/TCPServer.cpp.o
 BEP: CMakeFiles/BEP.dir/Network/TCPClient.cpp.o
 BEP: CMakeFiles/BEP.dir/Network/UDP.cpp.o
-BEP: CMakeFiles/BEP.dir/Functions/Function.cpp.o
 BEP: CMakeFiles/BEP.dir/Functions/FFT.cpp.o
 BEP: CMakeFiles/BEP.dir/Functions/QAM.cpp.o
-BEP: CMakeFiles/BEP.dir/Functions/Serial.cpp.o
 BEP: CMakeFiles/BEP.dir/Other/Counter.cpp.o
 BEP: CMakeFiles/BEP.dir/build.make
 BEP: CMakeFiles/BEP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable BEP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thijslaptop/Documents/BEP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable BEP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BEP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

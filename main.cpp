@@ -22,7 +22,7 @@ using namespace std;
 #define DEQAM16CMND 3
 #define OFDM1024CMND 4
 #define DEOFDM1024CMND 5
-#define DATASIZE 10240
+#define DATASIZE 24576
 #define NUMBEROFTHREADS 4
 
 /*void readcsvs(complex<double>** input) {
@@ -198,7 +198,7 @@ void deQAM16Thread(TCPClient *myIFFT2048Client, TCPClient *myDeQAM16Client, bool
     *complete = true;
 }
 
-void receiveThread(TCPClient *myDeQAM16Client, int cpri, bool *running, bool *complete) {
+void receiveThread(TCPClient *myDeQAM16Client, int cpri, int run_time, bool *running, bool *complete) {
     struct response *response = (struct response*) malloc (sizeof(struct response));
     Counter myCounter = Counter();
     double timeTaken;
@@ -215,12 +215,14 @@ void receiveThread(TCPClient *myDeQAM16Client, int cpri, bool *running, bool *co
         if (myCounter.hasPassed(1.0e9)) {
             myCounter.reset();
             timeTaken =  myCounter.compareTime(response->beginTime)  / 1000000;
+
             printf("Took: %f ms\n", timeTaken);
             myFile << timeTaken << "\n";
             timePassed++;
-            if (timePassed > 120) {
+
+            if (timePassed > run_time) {
                 myFile.close();
-                printf("Closed\n");
+                printf("Stopped logging\n");
             }
         }
     }
@@ -235,14 +237,14 @@ void receiveThread(TCPClient *myDeQAM16Client, int cpri, bool *running, bool *co
  *      argv[1] is the edge server IP address
  *      argv[2] is the edge server port
  *      argv[3] is the CPRI data rate in mbit/s
- *      argv[4] is the amount of time the program is supposed to run
+ *      argv[4] is the amount of time the program is supposed to log
  *      argv[5] is the time (h:m) the program will start. If argv[5][0] == 'n', then the program will start immediately
  */
 int main(int argc, char **argv) {
     /*
      * Read input arguments and setup BBU client
      */
-    int n_arguments = 4;
+    int n_arguments = 5;
 
     if (argc <= n_arguments) {
         printf("Error, you need to give at least %d arguments\n", n_arguments);
@@ -252,12 +254,12 @@ int main(int argc, char **argv) {
     char *edge_ip = argv[1];
     __int16_t port = atoi(argv[2]);
     int cpri_rate = atoi(argv[3]);
-    //int run_time = atoi(argv[4]);
+    int run_time = atoi(argv[4]);
 
     printf("Server ip: %s\n", edge_ip);
     printf("Server port: %d\n", port);
     printf("CPRI rate: %d mbit/s\n", cpri_rate);
-    //printf("The program is going to run for: %d seconds\n", run_time);
+    printf("The program is log for: %d seconds\n", run_time);
 
     //waitUntilStart(argv[5]);
 
@@ -303,7 +305,7 @@ int main(int argc, char **argv) {
     myThreads[2] = thread(deQAM16Thread, &myIFFT2048Client, &myDeQAM16Client, &running, &complete[2]);
 
     sprintf(name[3], "BBU_receive");
-    myThreads[3] = thread(receiveThread, &myDeQAM16Client, cpri_rate, &running, &complete[3]);
+    myThreads[3] = thread(receiveThread, &myDeQAM16Client, cpri_rate, run_time, &running, &complete[3]);
 
     /*
      * Set name of threads
